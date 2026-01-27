@@ -12,13 +12,20 @@
     "./postinstall.sh"
   ],
   "scripts": {
-    "prepublish": "./prepublish.sh",
-    "postinstall": "chmod +x ./postinstall.sh && ./postinstall.sh",
-    "test": "./test/test.sh"
+    "prepublish": "bash ./prepublish.sh",
+    "postinstall": "chmod +x ./postinstall.sh && bash ./postinstall.sh",
+    "pretest": "bash ./prepublish.sh",
+    "test": "bash ./test/test.sh"
   },
   "shellDependencies": {
     "shdoc": "1.1",
     "gawk": "5.2.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20",
+    "@commitlint/config-conventional": "^20",
+    "commit-and-tag-version": "12",
+    "commitlint": "20"
   },
   "author": "Nicholas McCready",
   "repository": {
