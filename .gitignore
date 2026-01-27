@@ -1,6 +1,5 @@
 .DS_Store
 .iml
-package-lock.json
 .vscode
 .env*
 vendor

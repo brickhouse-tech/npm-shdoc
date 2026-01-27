@@ -20,6 +20,12 @@
     "shdoc": "1.1",
     "gawk": "5.2.2"
   },
+  "devDependencies": {
+    "@commitlint/cli": "^20",
+    "@commitlint/config-conventional": "^20",
+    "commit-and-tag-version": "12",
+    "commitlint": "20"
+  },
   "author": "Nicholas McCready",
   "repository": {
     "url": "https://github.com/nmccready/npm-shdoc"
