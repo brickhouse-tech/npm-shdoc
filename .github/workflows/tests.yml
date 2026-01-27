@@ -15,6 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Install gawk
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gawk
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:

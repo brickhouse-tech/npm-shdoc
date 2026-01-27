@@ -12,9 +12,10 @@
     "./postinstall.sh"
   ],
   "scripts": {
-    "prepublish": "./prepublish.sh",
-    "postinstall": "chmod +x ./postinstall.sh && ./postinstall.sh",
-    "test": "./test/test.sh"
+    "prepublish": "bash ./prepublish.sh",
+    "postinstall": "chmod +x ./postinstall.sh && bash ./postinstall.sh",
+    "pretest": "bash ./prepublish.sh",
+    "test": "bash ./test/test.sh"
   },
   "shellDependencies": {
     "shdoc": "1.1",
