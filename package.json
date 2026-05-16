@@ -22,10 +22,10 @@
     "gawk": "5.2.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20",
-    "@commitlint/config-conventional": "^20",
+    "@commitlint/cli": "^21",
+    "@commitlint/config-conventional": "^21",
     "commit-and-tag-version": "12",
-    "commitlint": "20"
+    "commitlint": "21"
   },
   "author": "Nicholas McCready",
   "repository": {
