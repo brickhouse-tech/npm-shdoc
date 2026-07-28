@@ -24,7 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21",
     "@commitlint/config-conventional": "^21",
-    "commit-and-tag-version": "12",
+    "commit-and-tag-version": "13",
     "commitlint": "21"
   },
   "author": "Nicholas McCready",
